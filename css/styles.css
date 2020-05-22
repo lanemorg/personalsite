@@ -1,0 +1,163 @@
+/* Theme Colors:
+
+    #062743
+    #113a5d
+    #e8f2fb
+    #f9f9f9
+    #ff7a8a
+    #ffdce0
+
+                */
+/********************* TAG STYLES *********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin: 100px auto -30px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #062743;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #062743;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ff7a8a;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #ff7a8a;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 8px;
+  color: #ff7a8a;
+}
+
+/********************* CLASS STYLES *********************/
+
+.fixed-header {
+  background-color: #e8f2fb;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
+
+.fixed-header p {
+  color: #062743;
+}
+
+.top-container {
+  padding-top: 80px;
+  position: relative;
+  background-color: #e8f2fb;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.cloud {
+  position: absolute;
+  right: 400px;
+  top: 350px;
+}
+
+.sun {
+  position: absolute;
+  bottom: 275px;
+  left: 400px;
+}
+
+.programmer-h2 {
+  margin-top: 50px;
+}
+
+.hello-h2 {
+  margin-top: 50px;
+}
+
+.skill-row
+{
+  margin: 70px auto;
+  width: 40%;
+  text-align: left;
+}
+
+.manage-img {
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.layout-img {
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 20%;
+  margin: 100px auto;
+}
+
+.img-profile {
+  border-radius: 100%;
+  width: 200px;
+}
+
+.skills {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+}
+
+.get-in-touch-h2 {
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 50px;
+  padding: 15px;
+  background-color: #ff7a8a;
+  color: white;
+  border-radius: .7em;
+}
+
+.btn:hover {
+  background-color: #ffdce0;
+  color: #113a5d;
+}
+
+.bottom-container {
+  background-color: #062743;
+  color: white;
+  padding: 50px 0;
+}
+
+.footer-link {
+  margin: 15px;
+}
+
+.footer-copyright {
+  margin-top: 50px;
+}

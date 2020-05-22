@@ -36,6 +36,10 @@ h3 {
   text-transform: uppercase;
 }
 
+p {
+  line-height: 2;
+}
+
 a {
   color: #ff7a8a;
 }
@@ -95,7 +99,6 @@ hr {
   margin: 70px auto;
   width: 40%;
   text-align: left;
-  line-height: 2;
 }
 
 .manage-img {
